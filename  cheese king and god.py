@@ -25,3 +25,7 @@ class Ninja:
 Ninja1 = Ninja("Ethan", "Red", "flip burgers")
 Ninja1.intializeMatrix()
 print(Ninja1.matrix)
+
+
+
+#cheese

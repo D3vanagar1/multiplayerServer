@@ -28,4 +28,4 @@ Ninja1 = Ninja("Steven", "Red", "flip burgers")
 Ninja1.intializeMatrix()
 print(Ninja1.matrix)
         
-    
+    #i love cake
