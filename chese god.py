@@ -18,8 +18,10 @@ class Ninja:
 
 # TODO: method function that changes all diagonal matrix values to -1
 
-    def changeDiagonal(self):
+    #def changeDiagonal(self):
         
 
 
-
+Ninja1 = Ninja("Ethan", "Red", "flip burgers")
+Ninja1.intializeMatrix()
+print(Ninja1.matrix)
