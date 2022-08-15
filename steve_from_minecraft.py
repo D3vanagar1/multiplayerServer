@@ -1,4 +1,5 @@
-#CHEESE
+# basic OOP
+
 class Ninja:
     matrix = [ [0 for j in range(0,10)] for i in range(0,10)]
     # constructor
@@ -16,10 +17,15 @@ class Ninja:
             for j in range(0,10):
                 self.matrix[i][j] = 1
 
-# TODO: method function that changes all diagonal matrix values to -1
 
-    def changeDiagonal(self):
+    # TODO: method function that changes all diagonal matrix values to -1
+
+    #def changeDiagonal(self):
+
+
+
+Ninja1 = Ninja("Steven", "Red", "flip burgers")
+Ninja1.intializeMatrix()
+print(Ninja1.matrix)
         
-
-
-
+    

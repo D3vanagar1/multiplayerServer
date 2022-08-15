@@ -1,6 +1,6 @@
-#CHEESE
+# basic OOP
+
 class Ninja:
-    matrix = [ [0 for j in range(0,10)] for i in range(0,10)]
     # constructor
     def __init__(self, newName, newColor, skills, score=0):
         self.name = newName
@@ -16,10 +16,6 @@ class Ninja:
             for j in range(0,10):
                 self.matrix[i][j] = 1
 
-# TODO: method function that changes all diagonal matrix values to -1
 
+    # TODO: method function that changes all diagonal matrix values to -1
     def changeDiagonal(self):
-        
-
-
-
