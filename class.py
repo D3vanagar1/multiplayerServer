@@ -18,4 +18,4 @@ class Ninja:
 
 
     # TODO: method function that changes all diagonal matrix values to -1
-    def changeDiagonal(self):
+    #def changeDiagonal(self):
