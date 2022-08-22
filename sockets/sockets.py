@@ -6,6 +6,9 @@ Sockets are a way of connecting two nodes on a network to communicate with each 
 '''
 
 import socket
+import selectors
+import types
+
 '''
 # AF_INET: address-family ipv4
 # SOCK_STREAM: coonection protocol
@@ -27,6 +30,7 @@ s.connect((host_ip, port))
 print("socket successfully connected to google")
 
 '''
+
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
   s.bind((HOST,PORT))

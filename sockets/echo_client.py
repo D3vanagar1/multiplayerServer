@@ -1,5 +1,5 @@
 # echo_client
-
+import sys
 import socket
 
 HOST = "127.0.0.1" # standard localhost
