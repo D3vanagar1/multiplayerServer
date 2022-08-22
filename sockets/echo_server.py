@@ -1,7 +1,7 @@
 import socket
 # echo_server
 HOST = "127.0.0.1" # standard localhost
-PORT = 6969 # port to listen to (special ports > 1023)
+PORT = 65432 # port to listen to (special ports > 1023)
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
   s.bind((HOST, PORT))
