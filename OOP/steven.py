@@ -92,6 +92,8 @@ poopypants.race()
 print("weardown time:" + str(poopypants.weardown_time))
 
 
+def
+
 
 
 
