@@ -26,11 +26,8 @@ print(s[-3]) # string == array
 
 a = "Apple"
 b = "Banana"
-c = a + " " + b #concatination
+c = a + b #concatination
 print(c)
-
-
-
 
 
 
@@ -54,3 +51,18 @@ print(goofyah2("teddy"))
 
 # write a function that adds 2 strings
 # ex. func("vallen", "steven") == "vallensteven"
+
+
+
+# 2D array
+rows = 4
+columns = 4
+arr = [[2]*columns]*rows
+
+for i in range(0, rows):
+    for j in range(0, columns):
+        if i == j:
+            arr[i][i] = 1
+
+
+print(arr)

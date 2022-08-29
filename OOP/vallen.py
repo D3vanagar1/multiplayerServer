@@ -31,8 +31,8 @@ class hamburga:
   def __del__(self):
     print(self.meat + " burger has been eaten with a eating  ")
 
-hamburga1 = hamburga("chicken", True, ["lettuce", "cucumber"])
-hamburga2 = hamburga("cheese", True, ["tomotoes", "pickles"])
+#hamburga1 = hamburga("chicken", True, ["lettuce", "cucumber"])
+#hamburga2 = hamburga("cheese", True, ["tomotoes", "pickles"])
 #print(hamburga1.meat)
 #print(hamburga2.cheese)
 
@@ -144,10 +144,16 @@ class racecar:
 
 
 
-  
-    
-
 racecar1 = racecar("ethan", "big_dum_dum", 10000000,9)
 racecar1.weardown()
 racecar1.race()
-print("weardown time:" + str(racecar1.weardowntime))
+#print("weardown time:" + str(racecar1.weardowntime))
+
+
+# write a function that adds 2 strings
+# ex. func("vallen", "steven") == "vallensteven"
+
+def chinaman(abc):
+   return abc[123].upper()
+   
+print(chinaman("billy bob is asian and he like pizza and he really like to go poopoo and the pooppoo go in his pants and the toilet over flow and the uniral explodes the uniral go bye bye and go to space and the space in the world go into the toilet and into the unkoooooooooooooooooooooooooooooooown where the people smell bumbums and become very big dum dummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm and the teataaaaaaaaaaaa is really anoyed poo poo poo poo poo poo poo poo poo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poopoo poopoo poo poo poo poo poo poo poopoo poo poo poo poo poo poo poo"))
