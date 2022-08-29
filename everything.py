@@ -54,15 +54,24 @@ print(goofyah2("teddy"))
 
 
 
-# 2D array
+# 2D and 3D array
 rows = 4
 columns = 4
-arr = [[2]*columns]*rows
+height = 4
+arr = [[[2]*columns]*rows]*height
 
 for i in range(0, rows):
     for j in range(0, columns):
-        if i == j:
-            arr[i][i] = 1
+        for k in range(0, height):
+            arr[i][j][k] = i+j+k # makes all values in array 0
 
 
 print(arr)
+
+
+# tuples
+a,b = (3, 4) # (3,4) is a tuple
+c = (5,6)
+c[0] -= 1
+print("A:", str(a))
+print("B:", str(b))
