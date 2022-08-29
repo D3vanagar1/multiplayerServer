@@ -92,8 +92,19 @@ poopypants.race()
 print("weardown time:" + str(poopypants.weardown_time))
 
 
-def
+# write a function that adds 2 strings
+# ex. func("vallen", "steven") == "vallensteven"
+
+
+def goofyahh3(a, b):
+    return a + b
+
+print(goofyahh3("vallen", "steven"))
 
 
 
 
+def foobar(a,b):
+  return a + b
+
+print(foobar("this is a ", "test"))
