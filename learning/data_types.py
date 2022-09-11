@@ -30,9 +30,18 @@ item= tuplex[-3]
 
 #challenge convert tuple into dictionary
 tuplex = ((69420, "Vallen"), (42069, "Ethan"))
+
+#method 1
+dct = dict()
 for x,y in tuplex:
-    print(dict((y,x)))
+    dct[y] = x
+print(dct)
+
+#method 2
+dct = dict(map(reversed, tuplex))
+print(dct)
 
 
-a = dict((4, "apple"))
-print(a)
+
+#a = dict([4, "apple"])
+#print(a)
