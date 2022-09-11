@@ -13,7 +13,7 @@ x = ("tuple", False, 3.2, 1)
 # save item from list into variable
 a = [3, 5, "apple"]
 string = a[2] # string = apple
-print(string)
+#print(string)
 
 # save item from tuple into variable
 n1, n2, n3, n4 = x
@@ -25,8 +25,14 @@ n1, n2, n3, n4 = x
 #example: get item from tuple (letter s)
 tuplex = ("w",3,"r","e", " s", "o", "u", "r")
 item= tuplex[-3]
-print(item)
+#print(item)
 
 
 #challenge convert tuple into dictionary
+tuplex = ((69420, "Vallen"), (42069, "Ethan"))
+for x,y in tuplex:
+    print(dict((y,x)))
 
+
+a = dict((4, "apple"))
+print(a)
