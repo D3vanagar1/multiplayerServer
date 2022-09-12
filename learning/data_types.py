@@ -60,3 +60,16 @@ print(result)
 
 
 #excersise 2
+# mutliple all numbers of a tuple
+
+def multiply_tuple(tup):
+    temp = list(tup)
+    product = 1
+    for x in temp:
+        product *= x
+    return product
+
+
+nums = (4, 3, 2, 2, -1 , 18)
+print(nums)
+print(multiply_tuple((nums)))
