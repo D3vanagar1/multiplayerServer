@@ -37,11 +37,26 @@ for x,y in tuplex:
     dct[y] = x
 print(dct)
 
+
+
 #method 2
 dct = dict(map(reversed, tuplex))
 print(dct)
 
 
 
-#a = dict([4, "apple"])
-#print(a)
+# reversed()
+print(list(reversed(("a", "b", "c"))))
+
+#map()
+
+# ex func
+def mutlby2(n):
+    return 2*n
+
+numbers = [1,2,3,4]
+result = list(map(mutlby2, numbers))
+print(result)
+
+
+#excersise 2
