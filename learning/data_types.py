@@ -64,12 +64,27 @@ print(result)
 
 def multiply_tuple(tup):
     temp = list(tup)
+    print(temp)
     product = 1
     for x in temp:
         product *= x
+        print(product)
     return product
 
 
 nums = (4, 3, 2, 2, -1 , 18)
 print(nums)
 print(multiply_tuple((nums)))
+
+
+
+# excercise 3: calcuate sum of all elements of each tuple sotored in a list of tuples
+original1 = [(1,2), (2,3),(3,4)]
+original2 = [(1,2,2,3), (2,3,-.05, 12),(3,4)]
+
+def solution(tup):
+    result = map(sum, tup)
+    return list(result)
+
+
+print(solution(original2))
