@@ -8,5 +8,7 @@ for i in ll:
 # for loops
 # add all parts of list with a for loop
 ll = [5,4,6,9,-1,3]
+
 c = 0
-c = c + 1
+for i in ll:
+    print(i)
