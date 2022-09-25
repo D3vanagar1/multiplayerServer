@@ -8,10 +8,19 @@ for i in ll:
 # for loops
 # add all parts of list with a for loop
 ll = [5,4,6,9,-1,3]
-for i in 11: 
-    print(i)
+c = 0
+for i in ll:
+    c = c + 13*a/b
+
+print(c)
 
 
+
+# exercise:
+# find the word "cheese" in the string (return index)
+st = "my cheese fell on the ground"
+
+print
 
 
 
