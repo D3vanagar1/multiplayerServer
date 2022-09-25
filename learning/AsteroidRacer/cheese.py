@@ -4,4 +4,5 @@
 # self.caption = "Cheese"
 
 class gun:
-    def__init
+    def __init__(self):
+        self.caption = "Cheese"
