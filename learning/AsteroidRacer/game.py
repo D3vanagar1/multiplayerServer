@@ -34,7 +34,15 @@ class Rectangle:
 class Square(Rectangle):
     def __init__(self, length):
         super().__init__(length, length)
+class Cube(Square):
+    def volume(self):
+        face_area = super().area()
+        return face_area * self.length
+
 
 square = Square(4)
 print(square.area())
 print(square.perimeter())
+
+cube = Cube(3)
+print(cube.volume())
