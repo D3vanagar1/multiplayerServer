@@ -1,3 +1,4 @@
+'''
 #example
 #print all parts of list
 ll = [1,2,3,4,5]
@@ -20,3 +21,4 @@ for i in ll:
 st = "my cheese fell on the ground"
 print(st)
 print(st.find("cheese"))
+'''

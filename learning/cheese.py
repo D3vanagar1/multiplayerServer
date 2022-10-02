@@ -1,3 +1,4 @@
+'''
 #example
 #print all parts of list
 ll = [1,2,3,4,5]
@@ -19,8 +20,7 @@ print(c)
 # exercise:
 # find the word "cheese" in the string (return index)
 st = "my cheese fell on the ground"
-
-print
+'''
 
 
 
