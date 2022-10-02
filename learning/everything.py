@@ -78,3 +78,29 @@ print("B:", str(b))
 '''
 
 # list exercises
+
+# 1. reverse a list
+list1 = [100, 200, 300, 400, 500]
+#solution 1:
+#list1.reverse()
+#solution 2:
+#list1 = list1[::-1]
+#print(list1)
+
+
+# 2. add two list by index
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+
+result = ['My', 'name', 'is', 'Kelly']
+
+#zip
+ziped = zip(list1, list2)
+list3 = []
+for i,j in ziped:
+    list3.append(i+j)
+print(list3)
+
+
+# 3. Turn every item in list into its square
+numbers = [1,2,3,4,5,6,7,8] #output: [1,4,9,16,25,36,49,64]

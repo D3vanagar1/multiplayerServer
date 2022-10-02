@@ -23,5 +23,13 @@ st = "my cheese fell on the ground"
 '''
 
 
+# 2. add two list by index
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+list1.append(list2)
 
+result = ['My', 'name', 'is', 'Kelly']
+ziped = tuple(zip(list1, list2))
 
+for e,g in ziped:
+    print(e + g)
