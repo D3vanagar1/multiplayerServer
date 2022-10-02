@@ -1,5 +1,5 @@
 # Overview of everything
-
+'''
 # variable assignment and printing
 a = 5
 b = a
@@ -75,3 +75,6 @@ c = (5,6)
 c[0] -= 1
 print("A:", str(a))
 print("B:", str(b))
+'''
+
+# list exercises

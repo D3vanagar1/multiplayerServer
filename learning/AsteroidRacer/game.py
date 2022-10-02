@@ -1,4 +1,4 @@
-# pyglet doccumentation: https://steveasleep.com/pyglettutorial.html
+# pyglet documentation: https://steveasleep.com/pyglettutorial.html
 
 
 import pyglet
