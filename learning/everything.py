@@ -103,4 +103,10 @@ print(list3)
 
 
 # 3. Turn every item in list into its square
-numbers = [1,2,3,4,5,6,7,8] #output: [1,4,9,16,25,36,49,64]
+numbers = [1,2,3,4,5,6,7,8] #result: [1,4,9,16,25,36,49,64]
+#hint use for loop
+
+
+# 4. remove empty string from list
+list1 = ["Mike",  "Emma", "Kelly", "Brad"] # result: ["Mike", "Emma", "Kelly", "Brad"]
+list1remove()

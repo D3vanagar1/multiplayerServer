@@ -31,5 +31,6 @@ list1.append(list2)
 result = ['My', 'name', 'is', 'Kelly']
 ziped = tuple(zip(list1, list2))
 
-for e,g in ziped:
-    print(e + g)
+# 3. Turn every item in list into its square
+
+

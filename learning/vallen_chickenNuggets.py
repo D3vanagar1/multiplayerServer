@@ -38,3 +38,10 @@ list1 = ["M", "na", "i", "Ke"]
 list2 = ["y", "me", "s", "lly"]
 
 result = ['My', 'name', 'is', 'Kelly']
+
+
+# 3. Turn every item in list into its square
+numbers = [1,2,3,4,5,6,7,8] #result: [1,4,9,16,25,36,49,64]
+#hint use for loop
+for applebellybuttonjuicybiscuits in numbers:
+    print(applebellybuttonjuicybiscuits*applebellybuttonjuicybiscuits)
