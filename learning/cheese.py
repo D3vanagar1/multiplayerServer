@@ -20,7 +20,7 @@ print(c)
 # exercise:
 # find the word "cheese" in the string (return index)
 st = "my cheese fell on the ground"
-'''
+
 
 
 # 2. add two list by index
@@ -32,5 +32,11 @@ result = ['My', 'name', 'is', 'Kelly']
 ziped = tuple(zip(list1, list2))
 
 # 3. Turn every item in list into its square
+'''
 
+
+
+# 4. remove empty string from list
+list1 = ["Mike",  "Emma", "Kelly", "Brad"] # result: ["Mike", "Emma", "Kelly", "Brad"]
+list1.remove()
 

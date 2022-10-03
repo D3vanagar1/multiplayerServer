@@ -20,7 +20,7 @@ for i in ll:
 st = "my cheese fell on the ground"
 print(st)
 print(st.find("cheese"))
-'''
+
 
 # list exercises
 
@@ -45,3 +45,18 @@ numbers = [1,2,3,4,5,6,7,8] #result: [1,4,9,16,25,36,49,64]
 #hint use for loop
 for applebellybuttonjuicybiscuits in numbers:
     print(applebellybuttonjuicybiscuits*applebellybuttonjuicybiscuits)
+
+
+
+
+# 4. remove empty string from list
+list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"] # result: ["Mike", "Emma", "Kelly", "Brad"]
+list1.remove("")
+list1.remove("")
+print(list1)
+'''
+
+
+# 5. replace item(20) with new value (250)
+list1 = [5, 10, 15, 20, 25, 50, 80] #result: [5, 10, 15, 250, 25, 50, 20]
+#hint: used index()
