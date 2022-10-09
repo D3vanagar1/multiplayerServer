@@ -3,5 +3,9 @@
 # output: 1 number (the larger number)
 def maximum(a,b):
     # code goes here
-    billy = a>b
-    return billy
+    POOP = a>b
+    return POOP
+print(maximum(2,5))
+if True:
+
+    print (maximum(420,69))

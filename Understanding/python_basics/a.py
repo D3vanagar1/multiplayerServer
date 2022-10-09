@@ -5,3 +5,5 @@ def maximum(a,b):
     # code goes here
     billy = a>b
     return billy
+
+print(maximum(5,3))
