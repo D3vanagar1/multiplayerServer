@@ -114,5 +114,8 @@ print(list(filter(None, list1)))
 
 
 # 5. replace item(20) with new value (250)
-list1 = [5, 10, 15, 20, 25, 50, 80] #result: [5, 10, 15, 250, 25, 50, 20]
+list1 = [5, 10, 15, 20, 25, 50, 80] #result: [5, 10, 15, 250, 25, 50, 80]
 #hint: used index()
+index = list1.index(20)
+list1[index] = 250
+print(list1)

@@ -36,7 +36,8 @@ ziped = tuple(zip(list1, list2))
 
 
 
-# 4. remove empty string from list
-list1 = ["Mike",  "Emma", "Kelly", "Brad"] # result: ["Mike", "Emma", "Kelly", "Brad"]
-list1.remove()
+# 5. replace item(20) with new value (250)
+list1 = [5, 10, 15, 20, 25, 50, 80] #result: [5, 10, 15, 250, 25, 50, 20]
+#hint: used index()
 
+list1.index(20)
