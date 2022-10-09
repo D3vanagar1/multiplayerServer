@@ -1,5 +1,5 @@
 #  How to run file:
-#     cd Understanding/Assignments/Ethan/
+#     cd Understanding/Assignments/Vallen/
 #     python3 Assignment_1.py 
 # Assignment1 : Lists
 # Name:
@@ -79,4 +79,4 @@ def main():
     test(remove_adjacent([1, 2, 2, 3]), [1, 2, 3])
     test(remove_adjacent([2, 2, 3, 3, 3]), [2, 3])
     test(remove_adjacent([]), [])
-
+  
