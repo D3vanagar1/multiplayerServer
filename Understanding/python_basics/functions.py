@@ -12,6 +12,9 @@ def adder1(num1, num2):
 
 print(adder1(3,4))
 
-def adder2(num1, num2):
-    result = num1
-apple juice apple juice chickennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn apple juice nuggets and food mc nuggets apple juice apple juice chicknnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnchickennnnnnnnnnnnnnnnnnnnnnnnnnchickennnnnnnnnnnnnnnbokbokbokbokbokbokbokbokbokbokbokbkkbokbokokbokbokbokbkobobkobokbokbokb
+# Maximum: find maximum of 2 numbers
+# input: 2 numbers
+# output: 1 number (the larger number)
+def maximum(a,b):
+    # code goes here
+    return
