@@ -3,9 +3,21 @@
 # output: 1 number (the larger number)
 def maximum(a,b):
     # code goes here
+    
     POOP = a>b
-    return POOP
-print(maximum(2,5))
-if True:
+    if a>b:
+        return a
+    else:
+        return b
+print (maximum(420,69)) # a>b
+print(maximum(1, 200)) # b>a
 
-    print (maximum(420,69))
+
+# minimum: find minimum of 2 numbers
+# input: 2 numbers
+# output: 1 number (the smaller number)
+def minimum(a,b):
+    #code here
+    return
+
+    print (minimum(420, 6969))

@@ -4,6 +4,16 @@
 def maximum(a,b):
     # code goes here
     billy = a>b
-    return billy
+    if billy: 
+        return a
+    else:
+        return b
 
-print(maximum(5,3))
+print(maximum(5,37))
+
+# minimum
+def minimum(a,b):
+    return
+
+
+print(minimum(5,37))
