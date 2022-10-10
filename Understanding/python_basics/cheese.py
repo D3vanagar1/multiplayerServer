@@ -18,6 +18,9 @@ print(maximum(1, 200)) # b>a
 # output: 1 number (the smaller number)
 def minimum(a,b):
     #code here
-    return
+    if a<b:
+        return a
+    else:
+        return b
 
-    print (minimum(420, 6969))
+print (minimum(420, 6969))

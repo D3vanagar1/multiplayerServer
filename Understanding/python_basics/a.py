@@ -13,7 +13,11 @@ print(maximum(5,37))
 
 # minimum
 def minimum(a,b):
-    return
-
+    # code goes here
+    billy = a<b
+    if billy: 
+        return a
+    else:
+        return b
 
 print(minimum(5,37))
