@@ -23,3 +23,12 @@ def minimum(a,b):
 
 print(minimum(5,37))
 '''
+
+
+#exercise 1 add beginning and end of list
+def add_ends(lst):
+    pass
+
+
+print(add_ends([4,5,6,7,8,9]))
+print(add_ends(['B','F','D','Q']))
