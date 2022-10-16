@@ -1,5 +1,5 @@
 #  How to run file:
-#     cd Understanding/Assignments/Vallen/
+#     cd Class/Assignments/Vallen/
 #     python3 Assignment_1.py 
 # Assignment1 : Lists
 # Name:

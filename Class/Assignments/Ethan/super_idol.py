@@ -1,5 +1,5 @@
 #  How to run file:
-#     cd Understanding/Assignments/Ethan/
+#     cd Class/Assignments/Ethan/
 #     python3 Assignment_1.py 
 #  Assignment1 : Lists
 # Name:
