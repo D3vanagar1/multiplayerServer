@@ -1,3 +1,4 @@
+'''
 # Maximum: find maximum of 2 numbers
 # input: 2 numbers
 # output: 1 number (the larger number)
@@ -24,3 +25,4 @@ def minimum(a,b):
         return b
 
 print (minimum(420, 6969))
+'''
