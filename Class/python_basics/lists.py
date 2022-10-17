@@ -26,7 +26,7 @@ lst3 = ['B', 'F', 'G', 'A', 'C', 'P']
 
 #exercise 1: add beginning and end of list
 def add_ends(lst):
-    pass
+    #done
 
 
 print(add_ends([4,5,6,7,8,9]))
