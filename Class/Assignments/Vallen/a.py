@@ -1,6 +1,6 @@
 #  How to run file:
 #     cd Class/Assignments/Vallen/
-#     python3 Assignment_1.py 
+#     python3 a.py 
 # Assignment1 : Lists
 # Name:
 # Date:

@@ -1,6 +1,6 @@
 #  How to run file:
 #     cd Class/Assignments/Ethan/
-#     python3 Assignment_1.py 
+#     python3 super_idol.py 
 #  Assignment1 : Lists
 # Name:
 # Date:
@@ -21,8 +21,13 @@
 
 def match_ends(words):
   # +++your code here+++
-  return
-
+'''
+  count = 0
+  for w in words:
+    if len(w) >=2 and w[0] == w[-1]:
+      count = count + 1
+  return count
+'''
 
 # B. front_x
 # Given a list of strings, return a list with the strings
