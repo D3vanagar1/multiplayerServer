@@ -24,7 +24,7 @@ def charactercheetos_sort(lst):
 
 lst3 = ['B', 'F', 'G', 'A', 'C', 'P']
 
-#exercise 1 add beginning and end of list
+#exercise 1: add beginning and end of list
 def add_ends(lst):
     pass
 

@@ -28,9 +28,14 @@ print (minimum(420, 6969))
 '''
 
 
-#exercise 1 add beginning and end of list
+#exercise 1: add beginning and end of list
 def add_ends(lst):
-    pass
+    lst
+
+
+
+
+
 
 
 print(add_ends([4,5,6,7,8,9]))
