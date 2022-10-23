@@ -69,11 +69,11 @@ Explanation: 16 appears zero times in given list.
 '''
 
 def countX(lst, x):
-    x = 
-    
-
+    for c in countx:
+        len()
 
 print(countX([8,6,10,8,20,10,8,8], 8))
 print(countX([8,6,10,8,20,10,8,8], 4))
 
+print(countx([1])) 
 # need for loop and if statement
