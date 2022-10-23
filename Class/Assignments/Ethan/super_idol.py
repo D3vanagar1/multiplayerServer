@@ -20,14 +20,12 @@
 # Note: python does not have a ++ operator, but += works.
 
 def match_ends(words):
-  # +++your code here+++
-'''
+  return
   count = 0
   for w in words:
     if len(w) >=2 and w[0] == w[-1]:
       count = count + 1
   return count
-'''
 
 # B. front_x
 # Given a list of strings, return a list with the strings
@@ -37,10 +35,12 @@ def match_ends(words):
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 def front_x(words):
-  # +++your code here+++
+  first= ["eat","eese"]
+  sec= ["i","che"]
+  list3 = first + sec
+  print (list3)
   return
-
-
+  print (list3)
 #Additional
 # C. Given a list of numbers, return a list where
 # all adjacent == elements have been reduced to a single element,
