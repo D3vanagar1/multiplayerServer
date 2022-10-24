@@ -70,9 +70,15 @@ Explanation: 16 appears zero times in given list.
 '''
 
 def countX(lst, x):
-    pass #replace code here
-for chicken_nuggets in list
+    for chicken_nuggets in lst:
+        #do_smth with chicken_nuggets
+        if chicken_nuggets == x:
+            # code here
+            print(chicken_nuggets)
+
+            
 print(countX([8,6,10,8,20,10,8,8], 8))
 print(countX([8,6,10,8,20,10,8,8], 4))
 
 # need for loop and if statement
+

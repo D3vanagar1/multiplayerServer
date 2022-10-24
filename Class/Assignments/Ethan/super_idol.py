@@ -37,7 +37,10 @@ def match_ends(words):
 def front_x(words):
   first= ["eat","eese"]
   sec= ["i","che"]
-  list3 = first + sec
+  list3 = []
+
+  for i in range(0,1):
+    list3[i] = sec[i] + first[i]
   print (list3)
   return
   print (list3)
