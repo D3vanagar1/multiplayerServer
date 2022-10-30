@@ -23,7 +23,6 @@ print(add_ends(['B','F','D','Q']))
     - end of list:
         list[-1]
     - swap:
-
 '''
 
 #swap
@@ -59,7 +58,7 @@ Input: lst = [8, 6, 8, 10, 8, 20, 10, 8, 8], x = 16
 Output: 0
 Explanation: 16 appears zero times in given list.
 '''
-
+'''
 def countX(lst, x):
     count = 0
     for element in lst:
@@ -72,6 +71,7 @@ def countX(lst, x):
 print(countX([8,6,10,8,20,10,8,8], 8))
 print(countX([8,6,10,8,20,10,8,8], 4))
 print(countX([4,4,4,4,4], 4))
+'''
 #how to count in python:
 '''
 a = 0
@@ -80,3 +80,11 @@ for b in range(0, 10):
         a = a + 1
         print(a)
 '''
+
+
+# write a function that multiples all numbers in the list
+def multList(myList):
+    pass
+
+print(multList([4,5,6]))
+print(multList([-4,0.5,10]))

@@ -67,16 +67,21 @@ Input: lst = [8, 6, 8, 10, 8, 20, 10, 8, 8], x = 16
 Output: 0
 Explanation: 16 appears zero times in given list.
 '''
-
+'''
 def countX(lst, x):
     count = 0
     for element in lst:
-        if lst == x:
+        if element == x:
             count = count + 1
     return count
 
 print(countX([8,6,10,8,20,10,8,8], 8))
 print(countX([8,6,10,8,20,10,8,8], 4))
+'''
 
+# write a function that multiples all numbers in the list
+def multList(myList):
+    pass
 
-# need for loop and if statement
+print(multList([4,5,6]))
+print(multList([-4,0.5,10]))
