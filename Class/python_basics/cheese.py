@@ -78,10 +78,37 @@ def countX(lst, x):
 print(countX([8,6,10,8,20,10,8,8], 8))
 print(countX([8,6,10,8,20,10,8,8], 4))
 '''
-
+'''
 # write a function that multiples all numbers in the list
 def multList(myList):
-    pass
+    result = 1
+    for element in myList:
+        result = result*element
+    return result
 
 print(multList([4,5,6]))
 print(multList([-4,0.5,10]))
+
+# write a function that adds all numbers in the list
+def addList(myList):
+    result = 0
+    for element in myList:
+        result = result+element
+    return result
+
+print(addList([4,5,6]))
+print(addList([-4,0.5,10]))
+'''
+
+
+# find the smallest number in a list
+def mini(myList):
+    result = myList[0]
+    for element in myList:
+        print("element is" , str(element))
+        if result>element:
+            result = element
+            print("result is", str(result))
+    return result
+
+print(mini([12, 1,-2,3]))
