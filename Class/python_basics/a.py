@@ -82,9 +82,16 @@ print(countX([8,6,10,8,20,10,8,8], 8))
 print(countX([8,6,10,8,20,10,8,8], 4))
 
 # need for loop and if statement
+
+
+while eeee:
+# exercise: find the average of 5 numbers using a while loop
+arr = [3, -9, 8, 1, 4]
+print("1.4")
+loop
+
 '''
 
 
-
-# exercise: find the average of 5 numbers using a while loop
-arr = [3, -9, 8, 1, 4]
+# exercise: using a for loop print all the vehicles in the list except for Bus
+vehicles = ['Car', 'Cycle', 'Train', 'Bus', 'SkateBoard']

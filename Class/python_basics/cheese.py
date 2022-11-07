@@ -112,11 +112,17 @@ def mini(myList):
     return result
 
 print(mini([12, 1,-2,3]))
+
+
+
+# exercise: find the average of 5 numbers with a while loop
+arr = [3, -9, 8, 1, 4]
+#while arr:
+print("1.4")
 '''
 
 
-
-# exercise: find the average of 5 numbers using a while loop
-arr = [3, -9, 8, 1, 4]
-while arr:
-    poop = diarhruaea
+# exercise: using a for loop print all the vehicles in the list except for Bus
+vehicles = ['Car', 'Cycle', 'Train', 'Bus', 'SkateBoard']
+for E in vehicles:
+    
