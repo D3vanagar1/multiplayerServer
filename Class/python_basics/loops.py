@@ -11,7 +11,7 @@ while var > 0:
     var = var - 1
 
 
-# infinity loop
+# infinity while loop
 test = True
 i = 0
 while test:
@@ -20,5 +20,6 @@ while test:
         test = False
     i += 1
 
-ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ = sus
-ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ
+
+# exercise: find the average of 5 numbers using a while loop
+arr = [3, -9, 8, 1, 4]

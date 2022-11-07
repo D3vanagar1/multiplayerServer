@@ -100,7 +100,7 @@ print(addList([4,5,6]))
 print(addList([-4,0.5,10]))
 '''
 
-
+'''
 # find the smallest number in a list
 def mini(myList):
     result = myList[0]
@@ -112,3 +112,11 @@ def mini(myList):
     return result
 
 print(mini([12, 1,-2,3]))
+'''
+
+
+
+# exercise: find the average of 5 numbers using a while loop
+arr = [3, -9, 8, 1, 4]
+while arr:
+    poop = diarhruaea
