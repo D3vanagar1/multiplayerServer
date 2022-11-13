@@ -33,7 +33,7 @@ while i < nums:
 answer = num_sum/nums #average = sum/(number of numbers)
 print(answer)
 
-'''
+
 # for loops
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -58,3 +58,31 @@ for x in range(12,4, -1):
 
 # exercise: using a for loop print all the vehicles in the list except for Bus
 vehicles = ['Car', 'Cycle', 'Train', 'Bus', 'SkateBoard']
+'''
+
+# zip(): combines 2 lists into 1 list element by element
+
+names = ["vallen", "ethan", "karan"]
+numbers = [123,69420,17]
+
+for (name, number) in enumerate(zip(names, numbers)):
+    print(name, number)
+
+# exercise: go through 2 lists at once
+a1 = ['Python', 'Java', 'Scratch']
+b1 = [1,2,3]
+
+for i,j in zip(a1,b1):
+    print(i,j)
+
+
+
+# exercise print a triangle of stars using a for loop and range
+#hint: print('*', end=='')
+
+'''
+*
+**
+***
+****
+'''

@@ -119,10 +119,23 @@ print(mini([12, 1,-2,3]))
 arr = [3, -9, 8, 1, 4]
 #while arr:
 print("1.4")
-'''
+
 
 
 # exercise: using a for loop print all the vehicles in the list except for Bus
 vehicles = ['Car', 'Cycle', 'Train', 'Bus', 'SkateBoard']
-for E in vehicles:
-    
+for e in vehicles:
+    if e == "Bus":
+        continue
+    print(e)
+'''
+
+
+# exercise print a triangle of stars using for loops and range
+#hint: print('*', end=='')
+'''
+*
+**
+***
+****
+'''

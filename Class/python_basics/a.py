@@ -90,8 +90,24 @@ arr = [3, -9, 8, 1, 4]
 print("1.4")
 loop
 
-'''
+
 
 
 # exercise: using a for loop print all the vehicles in the list except for Bus
 vehicles = ['Car', 'Cycle', 'Train', 'Bus', 'SkateBoard']
+for bob in vehicles:
+    if bob == "Bus":
+        continue
+    print(bob)
+'''
+
+
+# exercise print a triangle of stars using for loops and range
+#hint: print('*', end=='')
+
+'''
+*
+**
+***
+****
+'''
