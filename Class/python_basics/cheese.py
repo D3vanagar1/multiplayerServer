@@ -152,7 +152,9 @@ for e in vehicles:
 2 1
 1
 '''
-n = 5
-for i in range(0, n+1):
-    print('*', end=')
+eggman = 5
 
+for i in range(0, eggman):
+    # columns
+    for j in range(0, i + 1):
+        print("*", end=' ')
