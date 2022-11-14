@@ -86,3 +86,19 @@ for i,j in zip(a1,b1):
 ***
 ****
 '''
+
+
+
+# exercise print the following patter using a for loop
+'''
+5 4 3 2 1
+4 3 2 1 
+3 2 1 
+2 1
+1
+'''
+
+
+n = 5
+for i in range(0, n+1):
+    alksjfljfdfadafdsfdfasdsadsad sd  asdsa dsad asd= cheeztoes dee 

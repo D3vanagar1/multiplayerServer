@@ -132,10 +132,27 @@ for e in vehicles:
 
 
 # exercise print a triangle of stars using for loops and range
-#hint: print('*', end=='')
+#hint: print('*', end='')
+
+
 '''
 *
 **
 ***
 ****
 '''
+
+
+
+# exercise print the following patter using a for loop
+'''
+5 4 3 2 1
+4 3 2 1 
+3 2 1 
+2 1
+1
+'''
+n = 5
+for i in range(0, n+1):
+    print('*', end=')
+
