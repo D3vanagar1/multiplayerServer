@@ -125,8 +125,8 @@ for bob in vehicles:
 '''
 rows = 5
 #rows
-for i in range(0, rows):
+for i in range(rows, 0, -1):
     # columns
-    for j in range(0, i + 1):
-        print("5", end=' ')
+    for j in range(1, i + 1):
+        print(j, end=' ')
     print("\n")

@@ -154,7 +154,7 @@ for e in vehicles:
 '''
 eggman = 5
 
-for i in range(0, eggman):
-    # columns
-    for j in range(0, i + 1):
-        print("*", end=' ')
+for i in range(eggman, 0, -1):
+    for j in range(1, i+1):
+        print(j, end=' ')
+    print("\n")

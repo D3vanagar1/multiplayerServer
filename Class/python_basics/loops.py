@@ -59,7 +59,7 @@ for x in range(12,4, -1):
 # exercise: using a for loop print all the vehicles in the list except for Bus
 vehicles = ['Car', 'Cycle', 'Train', 'Bus', 'SkateBoard']
 '''
-
+'''
 # zip(): combines 2 lists into 1 list element by element
 
 names = ["vallen", "ethan", "karan"]
@@ -75,7 +75,7 @@ b1 = [1,2,3]
 for i,j in zip(a1,b1):
     print(i,j)
 
-
+'''
 
 # exercise print a triangle of stars using a for loop and range
 #hint: print('*', end=='')
@@ -86,7 +86,7 @@ for i,j in zip(a1,b1):
 ***
 ****
 '''
-
+'''
 rows = 5
 #rows
 for i in range(0, rows):
@@ -99,7 +99,7 @@ for i in range(rows, 0, -1):
     for j in range(0, i - 1):
         print("*", end=' ')
     print("\n")
-
+'''
 # exercise print the following patter using a for loop
 '''
 5 4 3 2 1
@@ -108,3 +108,21 @@ for i in range(rows, 0, -1):
 2 1
 1
 '''
+'''
+rows = 5
+for i in range(rows, 0, -1):
+    for j in range(i, 0, -1):
+        print(j, end=' ')
+    print("\n")
+'''
+
+
+# find the sum of all the number in the string
+
+str1 = "PYnative29@#8496"
+total = 0
+for c in str1:
+    if c == '9':
+        total = total + 1
+
+print(total)
